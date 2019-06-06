@@ -1,0 +1,13 @@
+Color Schemes: Pitt New
+Game Royal: #003594
+University Gold:#FFB81C
+
+Color Schemes: Pitt Old
+Blue: #1C2957
+Gold: #CDB87D
+
+Color Scheme: Default
+Blue: #35424a
+Orange: #e8491d
+off-white: #f4f4f4
+white: #ffffff

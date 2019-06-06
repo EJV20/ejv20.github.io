@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Jeff Vitunac">
+    <meta name="author" content="Jeff Vitunac">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div id="name">
+            <h1>
+                <span class="highlight">Jeff Vitunac</span>
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="education.html" >Education</a></li>
+                <li><a href="employment.html" class="current">Employment</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="hobbies.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="contact-me">
+    <div class="container">
+        <h1>
+            Send me an email
+        </h1>
+        <form>
+            <input type="email" placeholder="Enter message">
+            <input type="submit" class="button_1">
+        </form>
+    </div>
+</section>
+
+<section id="main">
+    <div class="container">
+        <article id="main-col">
+            <h1 class="page-title">My Employment</h1>
+            <h3>Smart Market Dental (Startup)</h3>
+            <p>Technology, Intern &sdot; May 2018 - August 2018</p>
+            <p>Platform for delivering business analytics to dentists</p>
+            <ul>
+                <li>Utilized Twilio’s API to improve the ease and speed of calculating the billing for every client each month</li>
+                <li>Increased delivered analytics to clients by implementing custom made SQL statements for specific clients</li>
+                <li>Improved stability and reliability of platform by resolving bugs that were currently known and bugs that I identified</li>
+                <li>Was able to constantly adapt, find solutions, and fix problems in the fast-paced startup environment</li>
+                <li>Utilized: PHP, MySQL, JavaScript, C#, and Git</li>
+            </ul>
+            <h3>Pine Barn Inn</h3>
+            <p>Banquet Server &sdot; June 2015 - August 2016</p>
+            <p>Hotel, restaurant, and banquet hall</p>
+            <ul>
+                <li>Always on time and Made good relationships with fellow employees</li>
+                <li>Part of staff when the banquet won awards for having a great staff</li>
+            </ul>
+        </article>
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>
+                    Employment Status
+                </h3>
+                <ul>
+                    <li>Unemployed</li>
+                </ul>
+                <h3>What I am looking for</h3>
+                <p>
+                    I am looking for a career in software. I want to work in a relaxed environment that would allow
+                    me to work on new technologies and refine old ones. If you are interested in hiring me,
+                    please go to the "ABOUT ME" section and it will be listed in this section.
+                </p>
+            </div>
+        </aside>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <p>Jeff Vitunac, Copyright &copy 2019</p>
+    </div>
+</footer>
+
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="app.js"></script>
+<script src="view1/view1.js"></script>
+<script src="view2/view2.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+
+Pittsburgh, PA              		                           University of Pittsburgh		  	        August 2015 – April 2019
+•	Major: Computer Engineering, B.S
+•	GPA: 3.2
+•	Programming Coursework: Algorithm Implementation, Data Structures, Operating Systems, Web Applications, Software Engineering, Database Management Systems
+•	Hardware Coursework: Linear Circuits, Analysis and Design of Circuits, Computer Architecture, Advanced Digital Design
+
+
+Technology, Intern
+Smart Market Dental (startup)
+May 2018 - August 2018
+Platform for delivering business analytics to dentists
+•	Utilized Twilio’s API to improve the ease and speed of calculating the billing for every client each month
+•	Increased delivered analytics to clients by implementing custom made SQL statements for specific clients
+•	Improved stability and reliability of platform by resolving bugs that were currently known and bugs that I identified
+•	Was able to constantly adapt, find solutions, and fix problems in the fast-paced startup environment
+•	Utilized: PHP, MySQL, JavaScript, C#, and Git
+
+
+Portable Password Manager
+•	Group capstone project for Computer Engineering in which we created a secure hardware-based credential storage and retrieval product
+•	Utilized the PIC24 microcontroller to control the encryption, decryption, storage, and retrieval on the group designed printed circuit board
+•	Developed communication protocols from microcontroller to a custom-built chrome extension
+•	Utilized: C, Python, HTML/CSS, and Git
+Workout Time Manager
+•	Created a GUI desktop app that alerts the user that it is time for a break. Along with the break, the app delivers exercises that the user can do
+•	The user can specify time between breaks, time of breaks, number of exercises, the type of exercise, and the minimum and maximum amount of repetitions
+•	Utilized: Python, Tkinter, Git
+Video Game WASD trainer
+•	Command Prompt based video game trainer to improve finger movement for mouse and keyboard players
+•	Utilized: Python, Git
+Personal Website
+•	Created a website that gives visitors a general idea of who I am as a computer engineer
+•	Utilized: HTML5, CSS, Angular
+
+
+•	Software: (proficient): Python, Java, Git, Unix (familiar): C/C++, SQL, JavaScript, HTML/CSS, PHP, Angular
+
+University of Pittsburgh	     			    Kappa Theta Pi		                      Spring 2016 – April 2019
+•	Founding father of fraternity, former technology chair, former election board member
+•	Oversaw the growth of this professional technology fraternity from 9 members to 50 members in one year

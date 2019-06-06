@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Jeff Vitunac">
+    <meta name="author" content="Jeff Vitunac">
+    <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div id="name">
+            <h1>
+                <span class="highlight">Jeff Vitunac</span>
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="employment.html">Employment</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html" class="current">Skills</a></li>
+                <li><a href="hobbies.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="contact-me">
+    <div class="container">
+        <h1>
+            Send me an email
+        </h1>
+        <form>
+            <input type="email" placeholder="Enter message">
+            <input type="submit" class="button_1">
+        </form>
+    </div>
+</section>
+
+<section id="main">
+    <div class="container">
+        <article id="main-col">
+            <h1 class="page-title">Education</h1>
+            <p>my education</p>
+        </article>
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>
+                    SIDEBAR
+                </h3>
+                <p>
+                    Good Sidebar
+                </p>
+            </div>
+        </aside>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <p>Jeff Vitunac, Copyright &copy 2019</p>
+    </div>
+</footer>
+
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="view1/view1.js"></script>
+<script src="view2/view2.js"></script>
+<script src="core/version/version.js"></script>
+<script src="core/version/version-directive.js"></script>
+<script src="core/version/interpolate-filter.js"></script>
+</body>
+</html>

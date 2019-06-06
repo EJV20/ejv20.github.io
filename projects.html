@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Jeff Vitunac">
+    <meta name="author" content="Jeff Vitunac">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div id="name">
+            <h1>
+                <span class="highlight">Jeff Vitunac</span>
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="employment.html">Employment</a></li>
+                <li><a href="projects.html" class="current">Projects</a></li>
+                <li><a href="hobbies.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="contact-me">
+    <div class="container">
+        <h1>
+            Send me an email
+        </h1>
+        <form>
+            <input type="email" placeholder="Enter message">
+            <input type="submit" class="button_1">
+        </form>
+    </div>
+</section>
+
+<section id="main">
+    <div class="container">
+        <article id="main-col">
+            <h1 class="page-title">Projects</h1>
+            <h3>Portable Password Manager</h3>
+            <ul>
+                <li>Group capstone project for Computer Engineering in which we created a secure hardware-based credential storage and retrieval product</li>
+                <li>Utilized the PIC24 microcontroller to control the encryption, decryption, storage, and retrieval on the group designed printed circuit board</li>
+                <li>Developed communication protocols from microcontroller to a custom-built chrome extension</li>
+                <li>Utilized: C, Python, HTML/CSS, and Git</li>
+            </ul>
+            <h3>Workout Time Manager</h3>
+            <ul>
+                <li>Created a GUI desktop app that alerts the user that it is time for a break. Along with the break, the app delivers exercises that the user can do</li>
+                <li>The user can specify time between breaks, time of breaks, number of exercises, the type of exercise, and the minimum and maximum amount of repetitions</li>
+                <li>Utilized: Python, Tkinter, Git</li>
+            </ul>
+            <h3>Video Game WASD trainer</h3>
+            <ul>
+                <li>Command Prompt based video game trainer to improve finger movement for mouse and keyboard players</li>
+                <li>Utilized: c, Git</li>
+            </ul>
+            <h3>Personal Website</h3>
+            <ul>
+                <li>Created a website that gives visitors a general idea of who I am as a computer engineer</li>
+                <li>Utilized: HTML, CSS, Angular, Git</li>
+            </ul>
+
+        </article>
+        <aside id="sidebar">
+            <div class="dark">
+                <h1>
+                    Skills
+                </h1>
+                <h3>Proficient: </h3>
+                <p>These are languages that I feel very comfortable using and
+                    have multiple years of experiences.</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Git</li>
+                </ul>
+                <h3>Familiar:</h3>
+                <p>These are languages that I feel comfortable using but have a year or less using.</p>
+                <ul>
+                    <li>C/C++</li>
+                    <li>SQL</li>
+                    <li>HTML5/CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Angular</li>
+                </ul>
+                <h3>What I am learning now:</h3>
+                <p>These are technologies that I am currently learning</p>
+                <ul>
+                    <li>Selenium</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <p>Jeff Vitunac, Copyright &copy 2019</p>
+    </div>
+</footer>
+
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="app.js"></script>
+<script src="view1/view1.js"></script>
+<script src="view2/view2.js"></script>
+</body>
+</html>
