@@ -6,9 +6,10 @@ function isMobileDevice() {
 
 function mobile_desktop() {
   if (isMobileDevice()) {
-    document.getElementsByClassName("main-col").style.width = "100%";
-    document.getElementsByClassName("sidebar").style.width = "100%";
-    document.getElementsByClassName("sidebar").style.float = "left";
+    window.alert("MOBILE!")
+    document.getElementsByClassName("main-col").style.width = "";
+    document.getElementsByClassName("sidebar").style.width = "";
+    document.getElementsByClassName("sidebar").style.float = "";
   }
 }
 
