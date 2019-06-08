@@ -16,7 +16,7 @@ function mobile_desktop() {
     root.style.setProperty("--bg-color-2", "#003594");
     root.style.setProperty("--accent-color", "#FFB81C");
   } else {
-    console.log("DESKTOP");
+    console.log("Desktop Colors");
     root.style.setProperty("--bg-color-2", "#1C2957");
     root.style.setProperty("--accent-color", "#CDB87D");
   }
