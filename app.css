@@ -154,7 +154,7 @@ header a:hover {
 
 
 /* side bars */
-aside#sidebar {
+#sidebar {
   float: right;
   width: 30%;
   margin-top: 10px;
