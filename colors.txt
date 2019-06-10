@@ -6,6 +6,10 @@ Color Schemes: Pitt Old
 Blue: #1C2957
 Gold: #CDB87D
 
+Color Schemes: Pittsburgh
+Black: #101820
+Yellow: #FFB612
+
 Color Scheme: Default
 Blue: #35424a
 Orange: #e8491d

@@ -137,6 +137,12 @@ header a:hover {
   width:250px;
 }
 
+#contact-me select {
+  padding: 4px;
+  height: 38px;
+  width: 200px;
+}
+
 /* boxes */
 #boxes {
   margin-top: 20px;

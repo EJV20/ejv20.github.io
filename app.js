@@ -28,3 +28,42 @@ function mobile_desktop() {
   }
 }
 
+function theme_change() {
+  let e = document.getElementById('ddm');
+  let nc = e.options[e.selectedIndex].value;
+  let root = document.documentElement;
+
+  switch (nc) {
+    case "pn":
+      root.style.setProperty("--bg-color-2", "#003594");
+      root.style.setProperty("--accent-color", "#FFB81C");
+      break;
+    case "po":
+      console.log("PITT OLD");
+      root.style.setProperty("--bg-color-2", "#1C2957");
+      root.style.setProperty("--accent-color", "#CDB87D");
+      break;
+    case "st":
+      root.style.setProperty("--bg-color-2", "#101820");
+      root.style.setProperty("--accent-color", "#FFB612");
+      break;
+    case "pe":
+      root.style.setProperty("--bg-color-2", "#101820");
+      root.style.setProperty("--accent-color", "#FFB612");
+      break;
+    case "pi":
+      root.style.setProperty("--bg-color-2", "#101820");
+      root.style.setProperty("--accent-color", "#FFB612");
+      break;
+    case "xb":
+      root.style.setProperty("--bg-color-2", "#107c10");
+      root.style.setProperty("--accent-color", "#000000");
+      break;
+    default:
+      console.log("DEFAULT");
+      console.log(e);
+      console.log(typeof(e));
+      break;
+  }
+}
+

@@ -43,11 +43,18 @@
   <section id="contact-me">
     <div class="container">
       <h1>
-        Send me an email
+        Change Theme
       </h1>
       <form>
-        <input type="email" placeholder="Enter message">
-        <input type="submit" class="button_1">
+        <select id="ddm">
+          <option value="pn">Pitt (Current)</option>
+          <option value="po">Pitt (Old)</option>
+          <option value="st">Steelers</option>
+          <option value="pe">Penguins</option>
+          <option value="pi">Pirates</option>
+          <option value="xb">Xbox</option>
+        </select>
+        <input type="submit" class="button_1" onclick="theme_change()">
       </form>
     </div>
   </section>
