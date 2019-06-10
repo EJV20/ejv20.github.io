@@ -1,13 +1,11 @@
 window.onload = mobile_desktop;
 
 function isMobileDevice() {
-  console.log("ON LOAD WOKRED");
   return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 };
 
 function isIndex() {
   let pn = window.location.pathname;
-  console.log(pn);
   let fs = pn.indexOf("index.html");
   if ( fs === -1)
     return 0;
