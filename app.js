@@ -15,6 +15,13 @@ function isIndex() {
 
 function mobile_desktop() {
   let root = document.documentElement;
+  let color;
+  if (localStorage.getItem('cs')) {
+    color = localStorage.getItem('cs');
+    update_cs(color);
+  } else {
+    localStorage.setItem('cs', 'pn');
+  }
   if (isMobileDevice()) {
     if (isIndex()) {
       root.style.setProperty("--box-width", "100%");
@@ -28,36 +35,46 @@ function mobile_desktop() {
   }
 }
 
-function theme_change() {
-  let e = document.getElementById('ddm');
-  let nc = e.options[e.selectedIndex].value;
+function update_cs(c) {
   let root = document.documentElement;
 
-  switch (nc) {
+  switch (c) {
     case "pn":
+      localStorage.setItem('cs', 'pn');
       root.style.setProperty("--bg-color-2", "#003594");
       root.style.setProperty("--accent-color", "#FFB81C");
+      root.style.setProperty("--showcase-picture", "url('img/newpittlogo.jpg')");
       break;
     case "po":
-      console.log("PITT OLD");
+      localStorage.setItem('cs', 'po');
       root.style.setProperty("--bg-color-2", "#1C2957");
       root.style.setProperty("--accent-color", "#CDB87D");
+      root.style.setProperty("--showcase-picture", "url('img/pittoldcathy.jpg')");
       break;
     case "st":
-      root.style.setProperty("--bg-color-2", "#101820");
+      root.style.setProperty("--bg-color-2", "#000000");
       root.style.setProperty("--accent-color", "#FFB612");
+      root.style.setProperty("--showcase-picture", "url('img/juju.jpg')");
+      localStorage.setItem('cs', 'st');
       break;
     case "pe":
-      root.style.setProperty("--bg-color-2", "#101820");
-      root.style.setProperty("--accent-color", "#FFB612");
+      root.style.setProperty("--bg-color-2", "#000000");
+      root.style.setProperty("--accent-color", "#FCB514");
+      root.style.setProperty("--showcase-picture", "url('img/pens2.jpg')");
+      localStorage.setItem('cs', 'pe');
       break;
     case "pi":
-      root.style.setProperty("--bg-color-2", "#101820");
-      root.style.setProperty("--accent-color", "#FFB612");
+      root.style.setProperty("--bg-color-2", "#000000");
+      root.style.setProperty("--accent-color", "#FDB827");
+      root.style.setProperty("--showcase-picture", "url('img/pirates.jpg')");
+      localStorage.setItem('cs', 'pi');
       break;
     case "xb":
       root.style.setProperty("--bg-color-2", "#107c10");
       root.style.setProperty("--accent-color", "#000000");
+      root.style.setProperty("--showcase-picture", "url('img/xbox_wallpaper2.jpg')");
+      root.style.setProperty("--showcase-font", "#107c10");
+      localStorage.setItem('cs', 'xb');
       break;
     default:
       console.log("DEFAULT");
@@ -67,3 +84,8 @@ function theme_change() {
   }
 }
 
+function theme_change() {
+  let e = document.getElementById('ddm');
+  let nc = e.options[e.selectedIndex].value;
+  update_cs(nc);
+}
