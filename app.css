@@ -7,6 +7,7 @@
   --main-font-color: #ffffff;
   --accent-color: #FFB81C;
   --hover-color: #cccccc;
+  --box-width: 30%;
   --showcase-picture: url('img/juju.jpg');
 }
 
@@ -141,17 +142,16 @@ header a:hover {
   margin-top: 20px;
 }
 
-#boxes .box {
+.box {
   float: left;
   text-align: center;
-  width: 30%;
+  width: var(--box-width);
   padding: 10px;
 }
 
 #boxes .box img {
   width: 90px;
 }
-
 
 /* side bars */
 #sidebar {
@@ -196,7 +196,7 @@ aside a:hover {
 }
 
 /* articles */
-article#main-col {
+#main-col {
   float: left;
   width: 65%;
 }
