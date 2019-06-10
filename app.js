@@ -7,7 +7,7 @@ function isMobileDevice() {
 function isIndex() {
   let pn = window.location.pathname;
   let fs = pn.indexOf("index.html");
-  if ( fs === -1 || pn === "https://ejv20.github.io")
+  if ( fs === -1 || pn === "http://ejv20.github.io")
     return 0;
   else
     return 1;
