@@ -10,6 +10,7 @@
   --box-width: 30%;
   --showcase-font: #ffffff;
   --showcase-picture: url('img/newpittlogo.jpg');
+  --showcase-position: center top;
 }
 
 /* Globals */
@@ -100,8 +101,9 @@ header a:hover {
 #showcase {
   min-height: 400px;
   background: var(--showcase-picture);
+  background-color: #000000;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: var(--showcase-position);
   text-align: center;
   color: var(--showcase-font);
 }

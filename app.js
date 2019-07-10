@@ -43,37 +43,48 @@ function update_cs(c) {
       localStorage.setItem('cs', 'pn');
       root.style.setProperty("--bg-color-2", "#003594");
       root.style.setProperty("--accent-color", "#FFB81C");
-      root.style.setProperty("--showcase-picture", "url('img/newpittlogo.jpg')");
+      root.style.setProperty("--showcase-picture", "url('img/conner_stiffarm.jpg')");
+      root.style.setProperty("--showcase-font", "#FFB81C");
+      root.style.setProperty("--showcase-position", "center top");
       break;
     case "po":
       localStorage.setItem('cs', 'po');
       root.style.setProperty("--bg-color-2", "#1C2957");
       root.style.setProperty("--accent-color", "#CDB87D");
       root.style.setProperty("--showcase-picture", "url('img/pittoldcathy.jpg')");
+      root.style.setProperty("--showcase-font", "#CDB87D");
+      root.style.setProperty("--showcase-position", "center top");
       break;
     case "st":
       root.style.setProperty("--bg-color-2", "#000000");
       root.style.setProperty("--accent-color", "#FFB612");
       root.style.setProperty("--showcase-picture", "url('img/juju.jpg')");
       localStorage.setItem('cs', 'st');
+      root.style.setProperty("--showcase-font", "#FFB612");
+      root.style.setProperty("--showcase-position", "center top");
       break;
     case "pe":
       root.style.setProperty("--bg-color-2", "#000000");
       root.style.setProperty("--accent-color", "#FCB514");
       root.style.setProperty("--showcase-picture", "url('img/pens2.jpg')");
       localStorage.setItem('cs', 'pe');
+      root.style.setProperty("--showcase-font", "#ffffff");
+      root.style.setProperty("--showcase-position", "center top");
       break;
     case "pi":
       root.style.setProperty("--bg-color-2", "#000000");
       root.style.setProperty("--accent-color", "#FDB827");
       root.style.setProperty("--showcase-picture", "url('img/pirates.jpg')");
       localStorage.setItem('cs', 'pi');
+      root.style.setProperty("--showcase-font", "#ffffff");
+      root.style.setProperty("--showcase-position", "center");
       break;
     case "xb":
       root.style.setProperty("--bg-color-2", "#107c10");
       root.style.setProperty("--accent-color", "#000000");
       root.style.setProperty("--showcase-picture", "url('img/xbox_wallpaper2.jpg')");
       root.style.setProperty("--showcase-font", "#107c10");
+      root.style.setProperty("--showcase-position", "center");
       localStorage.setItem('cs', 'xb');
       break;
     default:
