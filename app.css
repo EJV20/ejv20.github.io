@@ -100,7 +100,8 @@ header a:hover {
 #showcase {
   min-height: 400px;
   background: var(--showcase-picture);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   color: var(--showcase-font);
 }
