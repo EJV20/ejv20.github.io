@@ -7,7 +7,7 @@ Pittsburgh, PA              		                           University of Pittsburg
 •	Hardware Coursework: Linear Circuits, Analysis and Design of Circuits, Computer Architecture, Advanced Digital Design
 
 
-Technology, Intern
+Software Developer, Intern
 Smart Market Dental (startup)
 May 2018 - August 2018
 Platform for delivering business analytics to dentists
@@ -35,8 +35,7 @@ Personal Website
 •	Utilized: HTML5, CSS, Angular
 
 
-•	Software: (proficient): Python, Java, Git, Unix (familiar): C/C++, SQL, JavaScript, HTML/CSS, PHP, Angular
-
+•	Software: (proficient): Python, Java, Git
 University of Pittsburgh	     			    Kappa Theta Pi		                      Spring 2016 – April 2019
 •	Founding father of fraternity, former technology chair, former election board member
 •	Oversaw the growth of this professional technology fraternity from 9 members to 50 members in one year
